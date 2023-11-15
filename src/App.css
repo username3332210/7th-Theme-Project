@@ -1,0 +1,33 @@
+body{
+    margin: 0 100px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 500px;
+}
+.txt{
+    margin: 30px;
+    line-height: .6;
+    margin-bottom: 40px;
+}
+button{
+    background-color: maroon;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+.lighttheme{
+    background-color: white;
+    color: black;
+}
+.darktheme{
+    background-color: #373636;
+    color: white;
+}
